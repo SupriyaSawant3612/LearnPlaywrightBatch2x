@@ -1,0 +1,23 @@
+// Rule 1: Must begin with a letter, underscore (_), or dollar sign ($)
+let name = "John";
+let _count = 10;
+let $price = 99.99;
+// Rule 2: Subsequent chars can include letters, digits, _, or $
+let myVar1 = "hello";
+let total_amount = 500;
+let data$2 = "value";
+// Rule 3: Cannot start with a digit (INVALID - uncomment to see error)
+// let 1name = "test";
+// let 123abc = "error";
+// Rule 4: Case-sensitive
+let myVar = "lowercase v";
+let myvar = "lowercase V";
+console.log(myVar, myvar); // Two different variables
+// Rule 5: Cannot be a reserved keyword (INVALID - uncomment to see error)
+// let class = "test";
+// let for = "loop";
+// let if = "condition";
+// Rule 6: Can contain Unicode letters and digits
+let über = "German";
+let привет = "Russian";
+let 你好 = "Chinese";
