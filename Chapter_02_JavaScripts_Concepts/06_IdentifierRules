@@ -21,3 +21,5 @@ console.log(myVar, myvar); // Two different variables
 let über = "German";
 let привет = "Russian";
 let 你好 = "Chinese";
+
+
