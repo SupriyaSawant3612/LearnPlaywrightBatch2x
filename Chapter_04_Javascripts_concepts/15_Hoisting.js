@@ -15,3 +15,8 @@ function printMessage() {
 //console.log(greeting); // Output: undefined
 // greeting = "Hello, how are you?"; --> Assignment stay in the place
 // console.log(greeting); // Output: Hello, how are you? 
+
+console.log(a);
+var a = "Supriya";
+console.log(a); // Output: Supriya
+// Output: [Function: printMessage]
