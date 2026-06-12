@@ -13,5 +13,5 @@ console.log(++a + ++a); //22 (pre-increment: increments the value first, then re
 console.log(a); //12 (a is now 12 after the pre-increment and post-increment)
 
 let a = 5;
-console.log(a++ + ++a - --a + a-- + ++a); //11 (post-increment: returns the value first, then increments it)
+console.log(a++ + ++a - --a + a-- + ++a); //18 (post-increment: returns the value first, then increments it)
 console.log(a); //7 (a is now 7 after all the increments and decrements)
